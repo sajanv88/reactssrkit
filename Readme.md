@@ -37,13 +37,18 @@ Please fork a copy of this repository. Forking a repository allows you to freely
 
 3. run it in development 
 ```
- yarn run dev OR npm run build
+ yarn run dev OR npm run dev
 ```
 
-4. Run your build
+4. release your production build
 
 ```
   yarn run build OR npm run build
+```
+
+5. Deploy your build
+```
+  yarn run deploy:ssr OR npm run deploy:ssr
 ```
 
 This should launch the application and start running on: http://localhost:3000/
